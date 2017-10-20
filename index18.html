@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+function person(name,age) {
+    this.name = name;
+    this.age = age;
+    this.yearUntilRetire = yearleft;
+}
+function yearleft() {
+    var numyear = 65 - this.age;
+    return numyear;
+}
+ var bucky = new person("bucky",20);
+
+
+    </script>
+</head>
+<body>
+<script>
+    document.write(bucky.yearUntilRetire());
+</script>
+
+</body>
+</html>
